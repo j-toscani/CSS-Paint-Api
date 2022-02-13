@@ -35,10 +35,14 @@ footer {
 }
 
 .test-field {
-  width: 100%;
+  max-width: 1200px;
   aspect-ratio: 4/3;
 }
 
 .dotted {
   background-image: paint(dottedBackground);
+
+  --dot-spacing: 30;
+  --dot-color: red;
+  --dot-size: 5;
 }

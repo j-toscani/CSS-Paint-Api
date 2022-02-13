@@ -28,5 +28,17 @@ footer {
 }
 
 .fancy {
+  line-height: 1.25;
+  width: fit-content;
+  padding-right: 0.5rem;
   background-image: paint(headerHighlight);
+}
+
+.test-field {
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+.dotted {
+  background-image: paint(dottedBackground);
 }
